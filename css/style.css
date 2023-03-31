@@ -30,6 +30,7 @@ nav{
     background-color: black;
     width: 80%;
     margin: auto;
+    color: white;
 }
 
 footer{
@@ -37,8 +38,4 @@ footer{
     color: white;
     font-size: 1.3em;
     text-align: center;
-}
-
-p{
-    color: white;
 }
