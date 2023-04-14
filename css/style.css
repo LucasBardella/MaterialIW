@@ -1,89 +1,82 @@
-body{
-    background-color:blue;
+body {
+    background-color: blue;
 }
-h1{
-    color:red;
+
+h1 {
+    color: red;
     text-align: center;
 }
 
-header{
+header {
     width: 100%;
     background-color: darkblue;
 }
 
-.logo{
-    color: black;
-    text-align: center;
-    font-size: 1.4em;
-}
-nav{
+.logo {
     color: black;
     text-align: center;
     font-size: 1.4em;
 }
 
-.banner{
+nav {
+    color: black;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.banner {
     width: 100%;
 }
 
-.container{
-    background-color: black;
+.container {
+    background-color: rgb(11, 121, 1);
     width: 80%;
     margin: auto;
 }
 
-footer{
+footer {
     background-color: gray;
     color: white;
     font-size: 1.3em;
     text-align: center;
 }
 
-.io{
+.io {
     color: white;
 }
 
-.banner2{
+.banner2 {
     width: 100%;
 }
 
-.banner3{
+.banner3 {
     width: 100%;
 }
 
-.banner4{
+.banner4 {
     width: 100%;
 }
 
-.banner5{
+.banner5 {
     width: 100%;
 }
 
-.banner6{
+.banner6 {
     width: 100%;
 }
 
-.banner7{
+.banner7 {
     width: 100%;
 }
 
-.banner8{
+.banner8 {
     width: 100%;
 }
 
-.banner9{
+.banner9 {
     width: 100%;
 }
 
-.banner10{
+.banner10 {
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
