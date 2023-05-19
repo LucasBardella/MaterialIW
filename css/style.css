@@ -91,3 +91,7 @@ p{
 .banner10 {
     width: 25%;
 }
+
+html{
+    scroll-behavior: smooth;
+}
