@@ -1,5 +1,6 @@
 body {
     background-image: url(../img/fundo.png);
+
 }
 
 h1 {
@@ -106,6 +107,12 @@ html{
     width: 25%;
 }
 
+.borda {
+    border-style: dashed;
+    border-color: rgb(0, 20, 243);
+    border-width: 25%;
+}
+
 @media (max-width: 800px) {
     .linha {
       flex-direction: column;
@@ -115,8 +122,4 @@ html{
         width: 100%;
     }
   }
-.borda {
-    border-style: double;
-    border-color: chocolate;
-    
-}
+
