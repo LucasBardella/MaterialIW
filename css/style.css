@@ -117,4 +117,6 @@ html{
   }
 .borda {
     border-style: double;
+    border-color: chocolate;
+    
 }
