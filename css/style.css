@@ -115,3 +115,6 @@ html{
         width: 100%;
     }
   }
+.borda {
+    border-style: double;
+}
