@@ -127,6 +127,8 @@ html{
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    font-size: larger;
+    background-color: forestgreen;
   }
   
   td, th {
