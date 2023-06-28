@@ -59,11 +59,11 @@ p{
 }
 
 .banner2 {
-    width: 50%;
+    width: 100%;
 }
 
 .banner3 {
-    width: 50%;
+    width: 100%;
 }
 
 .banner4 {
@@ -133,7 +133,7 @@ html{
   }
   
   td, th {
-    border: 5px solid #dddddd;
+    border: 5px solid #04660c;
     text-align: justify;
     padding: 8px;
   }
@@ -153,4 +153,12 @@ html{
 
 .centro2 {
     text-align: center;
+}
+
+.fonte {
+    font-size: large;
+}
+
+.fonte2 {
+    font-size: large;
 }
