@@ -9,6 +9,7 @@ h1 {
     text-align: center;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
+    font-size: larger;
 }
 
 header {
@@ -29,7 +30,7 @@ nav {
 }
 
 .bannerini {
-    width: 80%;
+    width: 100%;
 }
 
 .container {
@@ -52,7 +53,7 @@ p{
     padding-top: 1%;
     padding-bottom: 0.5%;
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: medium;
     text-align: justify;
     text-indent: 25px;  
 }
@@ -62,7 +63,7 @@ p{
 }
 
 .banner3 {
-    width: 25%;
+    width: 50%;
 }
 
 .banner4 {
@@ -128,12 +129,12 @@ html{
     border-collapse: collapse;
     width: 100%;
     font-size: larger;
-    background-color: forestgreen;
+    background-color: rgb(97, 36, 7);
   }
   
   td, th {
     border: 5px solid #dddddd;
-    text-align: left;
+    text-align: justify;
     padding: 8px;
   }
 
@@ -144,4 +145,12 @@ html{
 .ultimafrase {
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.centro {
+    text-align: center;
+}
+
+.centro2 {
+    text-align: center;
 }
