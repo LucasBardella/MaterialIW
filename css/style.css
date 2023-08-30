@@ -45,6 +45,7 @@ nav {
 footer {
     color: white;
     font-size: 1.3em;
+    background-color: rgb(94, 91, 91);
     text-align: center;
 }
 
@@ -175,4 +176,12 @@ html{
 .insta {
     width: 8em;
     height: 8em;
+}
+
+.idealh {
+    font-size: larger;
+}
+
+.p2 {
+    text-align: center;
 }
