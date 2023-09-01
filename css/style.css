@@ -185,3 +185,12 @@ html{
 .p2 {
     text-align: center;
 }
+
+.menu{
+    padding-bottom: 1.5%;
+    gap: 2%;
+}
+
+.menu li{
+    display: inline;
+}
