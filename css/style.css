@@ -19,13 +19,17 @@ h1 {
 header {
     width:100%;
     padding: 2%;
+    flex-direction: row;
+    background-color: brown;
 }
 
-.logo {
-    color: black;
-    text-align: center;
-    font-size: 1.4em;
-}
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }  
 
 nav {
     color: rgb(255, 255, 255);
@@ -193,4 +197,120 @@ html{
 
 .menu li{
     display: inline;
+}
+
+.logo{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: left;
+    width: 1%;
+}
+
+.menu a:hover {
+    padding: 1%;
+    background-color: #04660c;
+    text-decoration: none;
+    border-radius: 18%;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 1%;
+}
+
+.menu {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    width: 70%;
+}
+
+.menu a:link, .menu a:visited{ 
+    color: #fff;
+    text-decoration: none;
+  }  
+
+  .menu a:active {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  .menu{
+    line-height: 1.5;
+    text-align: center;
+    display: inline;
+  }
+  
+.menu a{
+    font-size: 0.8em;
+  }
+  
+.menu a:link, .link_menu a:visited{ 
+      color: #fff;
+      text-decoration: none;
+    }  
+    /* mouse over link */
+.menu a:hover {
+      color: #ff0000;
+      padding: 0.8%;    
+      background-color: rgba(128, 128, 128, 0.3); 
+      text-decoration: none;
+      border-radius: 15%;
+  
+    }
+    
+    /* selected link */
+.menu a:active {
+      color: #FFF;
+      text-decoration: none;
+    }
+
+header {
+    padding: 1.5%;  
+    font-family: 'Patrick Hand', cursive;
+    background-color: darkblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+  }
+  
+  footer{
+    background-color: rgba(128, 128, 128, 0.3); 
+    padding: 1.5%;  
+    font-family: 'Patrick Hand', cursive;
+  }
+
+  @media screen and (max-width:600px) {
+
+  }
+
+  @media screen and (min-width:601px) {
+    
+  header{
+        flex-direction: row;
+    }
+
+    .menu{
+        position: absolute;
+        right: 3%;
+        top: 30%;
+        width: 70%;
+    
+      }
+    
+    .menu ul li {
+        display: inline;
+        margin-left: 1%;  
+  }
+
 }
