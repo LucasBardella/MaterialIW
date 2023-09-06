@@ -255,7 +255,7 @@ th {
 
 /* mouse over link */
 .menu a:hover {
-    color: #ff0000;
+    color: #000000;
     padding: 0.8%;
     background-color: rgba(128, 128, 128, 0.3);
     text-decoration: none;
