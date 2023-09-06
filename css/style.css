@@ -248,7 +248,7 @@ th {
 }
 
 .menu a:link,
-.link_menu a:visited {
+.menu a:visited {
     color: #fff;
     text-decoration: none;
 }
