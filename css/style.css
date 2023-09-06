@@ -253,7 +253,6 @@ th {
     text-decoration: none;
 }
 
-/* mouse over link */
 .menu a:hover {
     color: #000000;
     padding: 0.8%;
@@ -263,7 +262,6 @@ th {
 
 }
 
-/* selected link */
 .menu a:active {
     color: #FFF;
     text-decoration: none;
