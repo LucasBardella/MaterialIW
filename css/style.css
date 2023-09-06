@@ -17,19 +17,19 @@ h1 {
 }
 
 header {
-    width:100%;
+    width: 100%;
     padding: 2%;
     flex-direction: row;
     background-color: brown;
 }
 
-.fixo{
+.fixo {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
-  }  
+}
 
 nav {
     color: rgb(255, 255, 255);
@@ -57,14 +57,14 @@ footer {
     color: white;
 }
 
-p{
+p {
     color: #fff;
     padding-top: 1%;
     padding-bottom: 0.5%;
     line-height: 1.5;
     font-size: medium;
     text-align: justify;
-    text-indent: 25px;  
+    text-indent: 25px;
 }
 
 .banner2 {
@@ -103,14 +103,14 @@ p{
     width: 25%;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.linha{
+.linha {
     display: flex;
     flex-flow: row wrap;
-    text-align: center;    
+    text-align: center;
 }
 
 .col-6 {
@@ -119,33 +119,34 @@ html{
 
 .borda {
     border-style: dashed;
-    border-color: rgb(0, 20, 243);
+    border-color: rgb(26, 116, 23);
     border-width: 25%;
 }
 
 @media (max-width: 800px) {
     .linha {
-      flex-direction: column;
+        flex-direction: column;
     }
 
     .col-6 {
         width: 100%;
     }
-  }
+}
 
-  table {
+table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
     font-size: larger;
     background-color: rgb(97, 36, 7);
-  }
-  
-  td, th {
+}
+
+td,
+th {
     border: 5px solid #04660c;
     text-align: justify;
     padding: 8px;
-  }
+}
 
 .titulocafe {
     font-size: larger;
@@ -190,16 +191,16 @@ html{
     text-align: center;
 }
 
-.menu{
+.menu {
     padding-bottom: 1.5%;
     gap: 2%;
 }
 
-.menu li{
+.menu li {
     display: inline;
 }
 
-.logo{
+.logo {
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     text-align: left;
@@ -225,92 +226,93 @@ html{
     width: 70%;
 }
 
-.menu a:link, .menu a:visited{ 
+.menu a:link,
+.menu a:visited {
     color: #fff;
     text-decoration: none;
-  }  
+}
 
-  .menu a:active {
+.menu a:active {
     color: #FFF;
     text-decoration: none;
-  }
+}
 
-  .menu{
+.menu {
     line-height: 1.5;
     text-align: center;
     display: inline;
-  }
-  
-.menu a{
+}
+
+.menu a {
     font-size: 0.8em;
-  }
-  
-.menu a:link, .link_menu a:visited{ 
-      color: #fff;
-      text-decoration: none;
-    }  
-    /* mouse over link */
+}
+
+.menu a:link,
+.link_menu a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* mouse over link */
 .menu a:hover {
-      color: #ff0000;
-      padding: 0.8%;    
-      background-color: rgba(128, 128, 128, 0.3); 
-      text-decoration: none;
-      border-radius: 15%;
-  
-    }
-    
-    /* selected link */
+    color: #ff0000;
+    padding: 0.8%;
+    background-color: rgba(128, 128, 128, 0.3);
+    text-decoration: none;
+    border-radius: 15%;
+
+}
+
+/* selected link */
 .menu a:active {
-      color: #FFF;
-      text-decoration: none;
-    }
+    color: #FFF;
+    text-decoration: none;
+}
 
 header {
-    padding: 1.5%;  
+    padding: 1.5%;
     font-family: 'Patrick Hand', cursive;
-    background-color: darkblue;
+    background-color: rgb(19, 88, 28);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.fixo{
+.fixo {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
-  
-  }
-  
-  footer{
-    background-color: rgba(128, 128, 128, 0.3); 
-    padding: 1.5%;  
+
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 1.5%;
     font-family: 'Patrick Hand', cursive;
-  }
+}
 
-  @media screen and (max-width:600px) {
+@media screen and (max-width:600px) {}
 
-  }
+@media screen and (min-width:601px) {
 
-  @media screen and (min-width:601px) {
-    
-  header{
+    header {
         flex-direction: row;
     }
 
-    .menu{
+    .menu {
         position: absolute;
         right: 3%;
         top: 30%;
         width: 70%;
-    
-      }
-    
+
+    }
+
     .menu ul li {
         display: inline;
-        margin-left: 1%;  
-  }
+        margin-left: 1%;
+    }
 
 }
